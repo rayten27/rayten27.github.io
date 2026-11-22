@@ -9,3 +9,4 @@ No publicar aquí credenciales ni el correo personal.
 ## Bitácora
 - 2026-11-15 · Claude · Creado el sitio. Siguiente paso: rellenar los enlaces en Google Auth Platform y publicar la app.
 - 2026-11-22 · Claude · Añadida mención de TikTok (Content Posting API) a index/privacidad/condiciones para la revisión de TikTok for Developers. Org TikTok 'RAYTEN27' creada por Rayfer; siguiente: Create app (Login Kit + Content Posting API), guardar Client Secret en keyring (nunca en chat).
+- 2026-11-22 · Claude · Subido archivo de verificación de TikTok (URL prefix https://rayten27.github.io/). App TikTok 'RAYTEN27 Publisher' (tipo Other) en developers.tiktok.com. Falta: Verify, Products (Login Kit + Content Posting API), Scopes, Sandbox con la cuenta de prueba.

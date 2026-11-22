@@ -9,4 +9,6 @@
 <p>Al usar esta app aceptas los <a href="https://www.youtube.com/t/terms">Términos del Servicio de YouTube</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
 <p>Al publicar en TikTok aplican los <a href="https://www.tiktok.com/legal/page/global/terms-of-service/es">Términos de servicio de TikTok</a> y su <a href="https://www.tiktok.com/legal/page/row/privacy-policy/es">Política de privacidad</a>.</p>
 <p><a href="index.html">Inicio</a> · <a href="privacidad.html">Política de privacidad</a> · <a href="condiciones.html">Condiciones del servicio</a></p>
+<div id="tt" style="display:none;margin:20px 0;padding:14px;border:1px solid #2FA8FF;border-radius:10px"><strong>TikTok conectado.</strong> Copia este código en la herramienta:<br><code id="ttcode" style="word-break:break-all;font-size:15px"></code></div>
+<script>var q=new URLSearchParams(location.search),c=q.get("code");if(c){document.getElementById("tt").style.display="block";document.getElementById("ttcode").textContent=c}else if(q.get("error")){document.getElementById("tt").style.display="block";document.getElementById("tt").textContent="TikTok: "+q.get("error_description")}</script>
 </body></html>
