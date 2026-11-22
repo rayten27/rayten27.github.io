@@ -1,14 +1,115 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>RAYTEN27 Studio</title>
-<style>body{font-family:system-ui,sans-serif;max-width:680px;margin:40px auto;padding:0 16px;line-height:1.6;background:#111;color:#eee}a{color:#7ab7ff}.yt{display:inline-flex;align-items:center;gap:10px;margin:8px 0 4px;padding:10px 14px;border:1px solid #333;border-radius:10px;background:#1a1a1a;color:#eee;text-decoration:none}.yt svg{flex:none}</style>
-</head><body>
-<h1>RAYTEN27 Studio</h1>
-<p>Herramienta personal de RAYTEN27 para consultar las estadísticas de su propio canal de YouTube, editar títulos, descripciones y etiquetas de sus videos, y subir a su propio canal clips cortos (Shorts) de sus transmisiones, con sus miniaturas. También puede publicar esos mismos clips en su propia cuenta de TikTok (@rayten2707). Funciona solo en su PC y no ofrece servicios a terceros.</p>
-<a class="yt" href="https://www.youtube.com/@RAYTEN27"><svg width="40" height="28" viewBox="0 0 40 28" aria-hidden="true"><rect width="40" height="28" rx="7" fill="#FF0000"/><path d="M16 8l10 6-10 6z" fill="#fff"/></svg><span>Desarrollado con los Servicios de API de YouTube · Canal <strong>@RAYTEN27</strong></span></a>
-<p>Al usar esta app aceptas los <a href="https://www.youtube.com/t/terms">Términos del Servicio de YouTube</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>.</p>
-<p>Al publicar en TikTok aplican los <a href="https://www.tiktok.com/legal/page/global/terms-of-service/es">Términos de servicio de TikTok</a> y su <a href="https://www.tiktok.com/legal/page/row/privacy-policy/es">Política de privacidad</a>.</p>
-<p><a href="index.html">Inicio</a> · <a href="privacidad.html">Política de privacidad</a> · <a href="condiciones.html">Condiciones del servicio</a></p>
-<div id="tt" style="display:none;margin:20px 0;padding:14px;border:1px solid #2FA8FF;border-radius:10px"><strong>TikTok conectado.</strong> Copia este código en la herramienta:<br><code id="ttcode" style="word-break:break-all;font-size:15px"></code></div>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RAYTEN27 | Gameplay de GTA 6 en español y reacciones</title>
+<meta name="description" content="RAYTEN27: gameplay de GTA 6 en español en PS5, momentos graciosos, Shorts y reacciones a los partidos más importantes del Real Madrid. Mira los videos más vistos y sígueme en YouTube y TikTok.">
+<link rel="canonical" href="https://rayten27.github.io/">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#0B4DFF">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RAYTEN27">
+<meta property="og:title" content="RAYTEN27 | Gameplay de GTA 6 en español">
+<meta property="og:description" content="Gameplay de GTA 6 en PS5, Shorts y reacciones. YouTube @RAYTEN27 · TikTok @rayten2707.">
+<meta property="og:url" content="https://rayten27.github.io/">
+<meta property="og:image" content="https://rayten27.github.io/logo.png">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+ {"@type":"Person","@id":"https://rayten27.github.io/#rayten27","name":"RAYTEN27","alternateName":["rayten27","rayten2707"],
+  "url":"https://rayten27.github.io/","image":"https://rayten27.github.io/logo.png",
+  "description":"Creador de contenido: gameplay de GTA 6 en español y reacciones de fútbol.",
+  "sameAs":["https://www.youtube.com/@RAYTEN27","https://www.tiktok.com/@rayten2707"]},
+ {"@type":"WebSite","name":"RAYTEN27","url":"https://rayten27.github.io/","inLanguage":"es","publisher":{"@id":"https://rayten27.github.io/#rayten27"}}
+]}
+</script>
+<style>
+:root{--bg:#070b16;--card:#0f1626;--line:#1e2a44;--text:#eef3ff;--muted:#9aa8c7;--blue:#0B4DFF;--cyan:#2FA8FF}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+a{color:var(--cyan)}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header.hero{background:radial-gradient(ellipse at top,#0B4DFF55,transparent 60%),linear-gradient(180deg,#0a1330,var(--bg));padding:48px 0 32px;text-align:center}
+.hero img{width:120px;height:120px;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 6px #2FA8FF33}
+h1{font-size:clamp(2rem,6vw,3.2rem);letter-spacing:.02em;margin:16px 0 4px}
+.tag{color:var(--muted);margin:0 0 24px;font-size:1.05rem}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:12px 20px;border-radius:12px;font-weight:700;text-decoration:none;color:#fff;min-width:200px;justify-content:center}
+.yt{background:#FF0000}.tt{background:#111;border:1px solid #444}.sub{background:var(--blue)}
+section{padding:32px 0}
+h2{font-size:1.5rem;margin:0 0 6px}
+.lead{color:var(--muted);margin:0 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.v{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;text-decoration:none;color:var(--text);display:block;transition:transform .15s}
+.v:hover{transform:translateY(-3px);border-color:var(--cyan)}
+.v .th{position:relative;aspect-ratio:16/9;background:#000}
+.v.short .th{aspect-ratio:9/12}
+.v img{width:100%;height:100%;object-fit:cover;display:block}
+.v .badge{position:absolute;top:8px;left:8px;background:#000c;padding:2px 8px;border-radius:6px;font-size:.75rem;font-weight:700}
+.v .play{position:absolute;inset:0;display:grid;place-items:center;font-size:2.4rem;opacity:.85;text-shadow:0 2px 8px #000}
+.v p{margin:0;padding:10px 12px;font-size:.92rem;font-weight:600}
+.about{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+footer{border-top:1px solid var(--line);margin-top:24px;padding:24px 0 40px;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+#tt{display:none;margin:20px 0;padding:14px;border:1px solid var(--cyan);border-radius:10px}
+#ttcode{word-break:break-all;font-size:15px}
+</style>
+</head>
+<body>
+<header class="hero">
+ <div class="wrap">
+  <img src="logo-256.png" alt="Logo de RAYTEN27" width="120" height="120">
+  <h1>RAYTEN27</h1>
+  <p class="tag">Gameplay de <strong>GTA 6</strong> en español · PS5 · Momentos graciosos y reacciones</p>
+  <div class="btns">
+   <a class="btn yt" href="https://www.youtube.com/@RAYTEN27" rel="me">▶ YouTube @RAYTEN27</a>
+   <a class="btn tt" href="https://www.tiktok.com/@rayten2707" rel="me">♪ TikTok @rayten2707</a>
+   <a class="btn sub" href="https://www.youtube.com/@RAYTEN27?sub_confirmation=1">Suscríbete para más contenido</a>
+  </div>
+  <div id="tt">TikTok conectado. Copia este código en la herramienta:<br><code id="ttcode"></code></div>
+ </div>
+</header>
+
+<main class="wrap">
+ <section id="gta6">
+  <h2>GTA 6 en español: lo más visto</h2>
+  <p class="lead">Mi aventura en GTA 6 desde cero en PS5: misiones, momentos graciosos y lo primero que hice en Leonida.</p>
+  <div class="grid">
+   <a class="v" href="https://www.youtube.com/watch?v=WyY2-esUxt8"><div class="th"><img src="https://i.ytimg.com/vi/WyY2-esUxt8/hqdefault.jpg" alt="Cómo empezar GTA 6, capítulo 1" loading="lazy"><span class="badge">VIDEO</span><span class="play">▶</span></div><p>Cómo EMPEZAR GTA 6: lo primero que hice | Capítulo 1</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/3NI7xJwhDY8"><div class="th"><img src="https://i.ytimg.com/vi/3NI7xJwhDY8/hqdefault.jpg" alt="Mi primera chamba en GTA 6" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>Tres cuartos y medio… mi primera chamba en GTA 6 🔨</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/ZZ3kPT1bwZM"><div class="th"><img src="https://i.ytimg.com/vi/ZZ3kPT1bwZM/hqdefault.jpg" alt="Salsa en la radio de GTA 6" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>Prendí la radio de GTA 6 y sonó salsa 🎶</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/Xy3ahcMI17I"><div class="th"><img src="https://i.ytimg.com/vi/Xy3ahcMI17I/hqdefault.jpg" alt="Cobrarle el alquiler a Mandy en GTA 6" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>Fui a cobrarle el alquiler a Mandy en GTA 6 😳</p></a>
+  </div>
+ </section>
+
+ <section id="reacciones">
+  <h2>Reacciones virales del Real Madrid</h2>
+  <p class="lead">Mis reacciones en vivo a los partidos más importantes de la Champions.</p>
+  <div class="grid">
+   <a class="v short" href="https://www.youtube.com/shorts/cunoVinP3hE"><div class="th"><img src="https://i.ytimg.com/vi/cunoVinP3hE/hqdefault.jpg" alt="Reacción tiro libre de Toni Kroos" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>Reacción al tiro libre de Toni Kroos en la final</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/K46ZUMCUOys"><div class="th"><img src="https://i.ytimg.com/vi/K46ZUMCUOys/hqdefault.jpg" alt="Caño de Vinicius Jr" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>El caño de Vinicius Jr en la final de la Champions</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/Q_Lg0jgL2GM"><div class="th"><img src="https://i.ytimg.com/vi/Q_Lg0jgL2GM/hqdefault.jpg" alt="Penal de Rüdiger contra el City" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>El penal de Rüdiger contra el Manchester City</p></a>
+   <a class="v short" href="https://www.youtube.com/shorts/7C3QUwo-DoU"><div class="th"><img src="https://i.ytimg.com/vi/7C3QUwo-DoU/hqdefault.jpg" alt="Gol de Vinicius Jr en la final" loading="lazy"><span class="badge">SHORT</span><span class="play">▶</span></div><p>Gol de Vini Jr en la final de la Champions 2024</p></a>
+  </div>
+ </section>
+
+ <section id="sobre">
+  <div class="about">
+   <h2>Sobre RAYTEN27</h2>
+   <p>Soy <strong>RAYTEN27</strong>, creador de contenido de gameplay. Juego <strong>GTA 6 en español</strong> en PS5 y subo partidas completas, Shorts con los mejores momentos y reacciones a los partidos más importantes del Real Madrid. Encuéntrame como <strong>@RAYTEN27</strong> en YouTube y <strong>@rayten2707</strong> en TikTok.</p>
+  </div>
+ </section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <p><strong>RAYTEN27 Studio</strong> es la herramienta personal de RAYTEN27 para consultar las estadísticas de su propio canal de YouTube, editar títulos, descripciones y etiquetas de sus videos, y subir a su propio canal clips cortos (Shorts) de sus transmisiones, con sus miniaturas. También puede publicar esos mismos clips en su propia cuenta de TikTok (@rayten2707). Funciona solo en su PC y no ofrece servicios a terceros. Desarrollado con los Servicios de API de YouTube.</p>
+  <p>Al usar esta app aceptas los <a href="https://www.youtube.com/t/terms">Términos del Servicio de YouTube</a> y la <a href="https://policies.google.com/privacy">Política de privacidad de Google</a>. Al publicar en TikTok aplican los <a href="https://www.tiktok.com/legal/page/global/terms-of-service/es">Términos de servicio de TikTok</a> y su <a href="https://www.tiktok.com/legal/page/row/privacy-policy/es">Política de privacidad</a>.</p>
+  <p><a href="index.html">Inicio</a> · <a href="privacidad.html">Política de privacidad</a> · <a href="condiciones.html">Condiciones del servicio</a></p>
+ </div>
+</footer>
 <script>var q=new URLSearchParams(location.search),c=q.get("code");if(c){document.getElementById("tt").style.display="block";document.getElementById("ttcode").textContent=c;try{new Image().src="http://127.0.0.1:8731/cb?code="+encodeURIComponent(c)}catch(e){}}else if(q.get("error")){document.getElementById("tt").style.display="block";document.getElementById("tt").textContent="TikTok: "+q.get("error_description")}</script>
-</body></html>
+</body>
+</html>
